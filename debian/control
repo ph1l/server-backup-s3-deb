@@ -1,0 +1,12 @@
+Source: serverbackups3
+Maintainer: Philip J Freeman <elektron@halo.nu>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.1
+
+Package: python-serverbackups3
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: streaming server backup to s3
+
